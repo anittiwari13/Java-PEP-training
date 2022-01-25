@@ -1,5 +1,7 @@
 package session6;
 
+import java.util.Scanner;
+
 public class assignmentStringBuffer {
     public static void main(String[] args) {
         //String Buffer
@@ -34,3 +36,21 @@ public class assignmentStringBuffer {
         System.out.println("Capacity after ensureCapacity : "+sb.capacity());
     }
 }
+
+
+class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int sal = sc.nextInt();
+        //let x be hrs in weekdays
+        //x+10 = weekend hrs
+        //sal = x*80 + 50*x+500
+        int weekday = (sal-500)/130;
+        System.out.println(weekday+10);
+        System.out.println(weekday);
+    }
+}
+
+
+
+
