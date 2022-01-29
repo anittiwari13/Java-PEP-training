@@ -5,6 +5,7 @@ package session7;
 //				  dish with lowest price comes first and highest in last       ~~~~~ Not completed !!!!!!
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 class Dish{
 
@@ -109,3 +110,4 @@ public class staticVsNonStaticAssignment {
         }
     }
 }
+
